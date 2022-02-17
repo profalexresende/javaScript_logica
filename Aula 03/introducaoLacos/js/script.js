@@ -1,7 +1,7 @@
 function calcularTabuada() {
     let num = parseInt(document.getElementById("num").value);
-    let res;
     let i = 1;
+    let res;
     let result="";
     while (i <= 10) {
         res = num * i;

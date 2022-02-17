@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <h2>Selecione 1 herói de cada universo</h2>
+    <form action="https://www.fiap.com.br" 
+    name="meuForm" method="post">
+
+    <p>
+        <input type="radio" name="marvel" value="Homem Aranha"/>Homem Aranha
+        <input type="radio" name="marvel" value="Homem de Ferro"/>Homem de Ferro
+        <input type="radio" name="marvel" value="Pantera Negra"/>Pantera Negra
+    </p>
+    <p>
+        <input type="radio" name="dc" value="Batman"/>Batman
+        <input type="radio" name="dc" value="Superman"/>Super Man
+        <input type="radio" name="dc" value="Flash"/>Flash
+    </p>
+
+    <input type="submit" value="Enviar" onclick="suaEscolha()">
+</form>
+</body>
+</html>
