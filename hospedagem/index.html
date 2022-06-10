@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <style>
+        div {
+          background-color: tomato;
+          color: white;
+          border: 2px solid black;
+          margin: 20px;
+          padding: 20px;
+          width: 15%;
+        }
+        </style>
+</head>
+<body>
+    <h3>Diária de hotel</h3>
+    <div>
+        <p>Entrada</p>
+        <p>
+            <input type="date" id="inputEntrada" placeholder="Entrada" >
+        </p>   
+        <p>Saída:</p>
+        <p>
+            <input type="date" id="inputSaida" placeholder="Saida" >
+        </p> 
+    </div>
+    <div>
+        <input type="button" value="Calcular Diárias" onclick="calcularDiarias()">
+    </div>
+    <div>
+        <p>Valor Total do Pedido</p>
+        <p id="total"></p>
+    </div>
+</body>
+</html>
